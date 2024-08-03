@@ -44,24 +44,24 @@ $ufile = $r[0];
 
 
         <li class="nav-item">
-                <a href="dashboard" class="nav-link" data-key="t-analytics">  <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards"> Dashboard </span></a>
+                <a href="index.php" class="nav-link" data-key="t-analytics">  <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards"> Dashboard </span></a>
               </li>
 
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarB" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="sidebarLanding">
                                 <i class="ri-file-list-3-line"></i> <span data-key="t-landing">Manage Blog</span>
                             </a>
                             <div class="menu-dropdown collapse" id="sidebarB" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="createblog" class="nav-link" data-key="t-one-page"> Add New </a>
+                                        <a href="add-blog.php" class="nav-link" data-key="t-one-page"> Add New </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="blog" class="nav-link" data-key="t-nft-landing">Blog lists </a>
+                                        <a href="bloglist.php" class="nav-link" data-key="t-nft-landing">Blog lists </a>
                                     </li>
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
 
               <li class="nav-item">
                             <a class="nav-link menu-link" href="#sidebarLanding" data-bs-toggle="collapse" role="button" aria-expanded="true" aria-controls="sidebarLanding">
@@ -70,10 +70,10 @@ $ufile = $r[0];
                             <div class="menu-dropdown collapse" id="sidebarLanding" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="createservice" class="nav-link" data-key="t-one-page"> Add Service </a>
+                                        <a href="add-service.php" class="nav-link" data-key="t-one-page"> Add Service </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="services" class="nav-link" data-key="t-nft-landing"> Services List </a>
+                                        <a href="services.php" class="nav-link" data-key="t-nft-landing"> Services List </a>
                                     </li>
                                 </ul>
                             </div>
@@ -87,10 +87,10 @@ $ufile = $r[0];
                             <div class="menu-dropdown collapse" id="sidebarPot" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="createportfolio" class="nav-link" data-key="t-one-page"> Add New </a>
+                                        <a href="add-portfolio.php" class="nav-link" data-key="t-one-page"> Add New </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="portfolio" class="nav-link" data-key="t-nft-landing"> Portfolio List </a>
+                                        <a href="portfolio.php" class="nav-link" data-key="t-nft-landing"> Portfolio List </a>
                                     </li>
                                 </ul>
                             </div>
@@ -102,14 +102,14 @@ $ufile = $r[0];
                             </a>
                             <div class="menu-dropdown collapse" id="sidebarSl" style="">
                                 <ul class="nav nav-sm flex-column">
-                                    <li class="nav-item">
-                                        <a href="createslide" class="nav-link" data-key="t-one-page"> Add New </a>
+                                    <!-- <li class="nav-item">
+                                        <a href="add-slider.php" class="nav-link" data-key="t-one-page"> Add New </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="slider" class="nav-link" data-key="t-nft-landing"> Sliders List </a>
-                                    </li>
+                                        <a href="sliderlist.php" class="nav-link" data-key="t-nft-landing"> Sliders List </a>
+                                    </li> -->
                                     <li class="nav-item">
-                                        <a href="static" class="nav-link" data-key="t-nft-landing"> Static Sliders</a>
+                                        <a href="static-home.php" class="nav-link" data-key="t-nft-landing"> Static Sliders</a>
                                     </li>
                                 </ul>
                             </div>
@@ -121,10 +121,10 @@ $ufile = $r[0];
                             <div class="menu-dropdown collapse" id="sidebarX" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="createsocial" class="nav-link" data-key="t-one-page"> Add New </a>
+                                        <a href="add-social.php" class="nav-link" data-key="t-one-page"> Add New </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="social" class="nav-link" data-key="t-nft-landing">Social List </a>
+                                        <a href="social-links.php" class="nav-link" data-key="t-nft-landing">Social List </a>
                                     </li>
                                 </ul>
                             </div>
@@ -137,10 +137,10 @@ $ufile = $r[0];
                             <div class="menu-dropdown collapse" id="sidebarT" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="newtestimony" class="nav-link" data-key="t-one-page">New Testimony</a>
+                                        <a href="add-testimony.php" class="nav-link" data-key="t-one-page">New Testimony</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="testimony" class="nav-link" data-key="t-nft-landing"> All Testimonies </a>
+                                        <a href="testimonylist.php" class="nav-link" data-key="t-nft-landing"> All Testimonies </a>
                                     </li>
                                 </ul>
                             </div>
@@ -153,10 +153,10 @@ $ufile = $r[0];
                             <div class="menu-dropdown collapse" id="sidebarW" style="">
                                 <ul class="nav nav-sm flex-column">
                                     <li class="nav-item">
-                                        <a href="addwhy" class="nav-link" data-key="t-one-page"> Add New </a>
+                                        <a href="add-why.php" class="nav-link" data-key="t-one-page"> Add New </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="why" class="nav-link" data-key="t-nft-landing"> All lists </a>
+                                        <a href="why-us.php" class="nav-link" data-key="t-nft-landing"> All lists </a>
                                     </li>
                                 </ul>
                             </div>

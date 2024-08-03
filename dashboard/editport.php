@@ -46,7 +46,7 @@ while($row = mysqli_fetch_array($result))
 
                         <!--end col-->
                         <div class="col-xxl-9">
-                            <div class="card mt-xxl-n5">
+                            <div class="card">
                                 <div class="card-header">
                                     <ul class="nav nav-tabs-custom rounded card-header-tabs border-bottom-0" role="tablist">
                                         <li class="nav-item">

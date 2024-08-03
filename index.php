@@ -16,10 +16,10 @@
                             <h1 class="text-white"><?php print $stitle?></h1>
                             <p class="text-white my-4"><?php print $stext?></p>
                             <!-- Buttons -->
-                            <div class="button-group">
+                            <!-- <div class="button-group">
                                 <a href="#" class="btn btn-bordered-white">Start a Project</a>
                                 <a href="#" class="btn btn-bordered-white d-none d-sm-inline-block">Contact Us</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-12 col-md-5">

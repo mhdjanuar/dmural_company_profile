@@ -104,31 +104,6 @@ $nux = $rowx[0];
                                             </div><!-- end card body -->
                                         </div><!-- end card -->
                                     </div><!-- end col -->
-                                    <div class="col-lg-4 col-md-6">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar-sm flex-shrink-0">
-                                                        <span class="avatar-title bg-light text-primary rounded-circle fs-3">
-                                                            <i class="ri-pages-line"></i>
-                                                        </span>
-                                                    </div>
-                                                    <div class="flex-grow-1 ms-3">
-                                                    <?php
-$result = mysqli_query($con,"SELECT count(*) FROM blog");
-$rod = mysqli_fetch_row($result);
-$nud = $rod[0];
-
-?>
-                                                        <p class="text-uppercase fw-semibold fs-12 text-muted mb-1"> Total Blog</p>
-                                                        <h4 class=" mb-0"><span class="counter-value" data-target="<?php print $nud; ?>"></span></h4>
-                                                    </div>
-
-                                                </div>
-                                            </div><!-- end card body -->
-                                        </div><!-- end card -->
-                                    </div><!-- end col -->
-                                </div>
 
                     </div> <!-- end .h-100-->
 
