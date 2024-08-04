@@ -27,7 +27,7 @@
                     <div class="col-12 col-lg-6">
                         <!-- About Thumb -->
                         <div class="about-thumb text-center">
-                            <img src="assets/img/about/about_thumb_1.jpg" alt="">
+                            <img src="assets/img/about/about_thumb_4.jpeg" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">

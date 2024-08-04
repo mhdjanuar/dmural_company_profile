@@ -585,7 +585,7 @@ img {
 }
 
 .overlay-dark::after {
-  background-color: rgba(16, 16, 45, 1);
+  background-color: rgb(15, 13, 8);
   opacity: 0.95;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
   z-index: -1;
@@ -747,8 +747,8 @@ img {
 }
 
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed
-    center center / cover;
+  background: url("../img/bg/inner_bg2.jpeg") no-repeat fixed center center /
+    cover;
 }
 
 .blog .breadcrumb-area {
